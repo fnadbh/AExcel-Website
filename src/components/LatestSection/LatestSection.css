@@ -1,0 +1,430 @@
+/* ==========================================
+   LATEST SECTION
+========================================== */
+
+.latest-section{
+
+    background:#F8F6F2;
+
+    padding:50px 0 80px;
+
+}
+
+.latest-container{
+
+    max-width:1200px;
+
+    margin:0 auto;
+
+    padding:0 40px;
+
+}
+
+/* ==========================================
+   MAIN TITLE
+========================================== */
+
+.latest-main-header{
+
+    margin-bottom:45px;
+
+}
+
+.latest-main-header h2{
+
+    margin:0;
+
+    font-family:Georgia, serif;
+
+    font-size:38px;
+
+    font-weight:400;
+
+    color:#071D2F;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.latest-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,minmax(0,1fr));
+
+    gap:60px;
+
+    align-items:start;
+
+}
+
+.latest-column{
+
+    width:100%;
+
+}
+
+/* ==========================================
+   COLUMN HEADER
+========================================== */
+
+.column-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding-bottom:14px;
+
+    border-bottom:2px solid #E7E3DB;
+
+    margin-bottom:10px;
+
+}
+
+.column-header h3{
+
+    margin:0;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    color:#071D2F;
+
+}
+
+.column-header a{
+
+    text-decoration:none;
+
+    color:#D79B33;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.column-header a:hover{
+
+    color:#071D2F;
+
+}
+
+/* ==========================================
+   PROGRAMMES
+========================================== */
+
+.latest-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:18px 0;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    border-bottom:1px solid #ECECEC;
+
+    transition:.25s;
+
+}
+
+.latest-item:hover{
+
+    transform:translateX(4px);
+
+}
+
+.latest-item:hover h4{
+
+    color:#D79B33;
+
+}
+
+.date-box{
+
+    width:60px;
+
+    height:60px;
+
+    background:#EFE7D7;
+
+    border-radius:10px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-shrink:0;
+
+}
+
+.date-box span{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#071D2F;
+
+    line-height:1;
+
+}
+
+.date-box small{
+
+    margin-top:4px;
+
+    font-size:10px;
+
+    letter-spacing:1px;
+
+    color:#777;
+
+}
+
+.item-content{
+
+    flex:1;
+
+}
+
+.item-content h4{
+
+    margin:0 0 6px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:#071D2F;
+
+    line-height:1.45;
+
+    transition:.25s;
+
+}
+
+.item-content p{
+
+    margin:0;
+
+    font-size:14px;
+
+    color:#777;
+
+}
+
+/* ==========================================
+   NEWS
+========================================== */
+
+.news-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    padding:18px 0;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    border-bottom:1px solid #ECECEC;
+
+    transition:.25s;
+
+}
+
+.news-item:hover{
+
+    transform:translateX(4px);
+
+}
+
+.news-item:hover h4{
+
+    color:#D79B33;
+
+}
+
+.news-item img{
+
+    width:90px;
+
+    height:68px;
+
+    object-fit:cover;
+
+    border-radius:8px;
+
+    flex-shrink:0;
+
+}
+
+/* Placeholder */
+
+.news-placeholder{
+
+    width:90px;
+
+    height:68px;
+
+    border-radius:8px;
+
+    background:#EFEFEF;
+
+    border:1px dashed #CFCFCF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    font-size:11px;
+
+    font-weight:600;
+
+    color:#888;
+
+    flex-shrink:0;
+
+}
+
+.news-content{
+
+    flex:1;
+
+}
+
+.news-content h4{
+
+    margin:0 0 6px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:#071D2F;
+
+    line-height:1.45;
+
+    transition:.25s;
+
+}
+
+.news-content span{
+
+    font-size:14px;
+
+    color:#777;
+
+}
+
+/* ==========================================
+   EMPTY CARD
+========================================== */
+
+.empty-card{
+
+    padding:28px;
+
+    text-align:center;
+
+    border:1px dashed #D8D8D8;
+
+    border-radius:12px;
+
+    margin-top:20px;
+
+    color:#888;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+    .latest-grid{
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .latest-section{
+
+        padding:40px 0 60px;
+
+    }
+
+    .latest-container{
+
+        padding:0 20px;
+
+    }
+
+    .latest-main-header h2{
+
+        font-size:30px;
+
+    }
+
+    .column-header h3{
+
+        font-size:15px;
+
+    }
+
+    .news-item img,
+    .news-placeholder{
+
+        width:80px;
+
+        height:60px;
+
+    }
+
+    .date-box{
+
+        width:55px;
+
+        height:55px;
+
+    }
+
+}

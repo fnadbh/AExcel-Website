@@ -1,0 +1,177 @@
+.admin-dashboard{
+
+    background:#F8F6F2;
+
+    min-height:100vh;
+
+    padding:60px;
+
+}
+
+.dashboard-container{
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+.dashboard-label{
+
+    color:#D79B33;
+
+    letter-spacing:4px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
+
+.dashboard-container h1{
+
+    font-family:Georgia, serif;
+
+    color:#071D2F;
+
+    font-size:3rem;
+
+    margin:20px 0;
+
+}
+
+.dashboard-container p{
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
+
+/* Stats */
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-bottom:50px;
+
+}
+
+.stat-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.stat-card h2{
+
+    color:#071D2F;
+
+    font-size:2.5rem;
+
+    margin-bottom:10px;
+
+}
+
+.stat-card span{
+
+    color:#777;
+
+}
+
+/* Tables */
+
+.dashboard-section{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    margin-bottom:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.dashboard-section h2{
+
+    color:#071D2F;
+
+    margin-bottom:20px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    text-align:left;
+
+    padding:14px;
+
+    background:#071D2F;
+
+    color:white;
+
+}
+
+td{
+
+    padding:14px;
+
+    border-bottom:1px solid #EEE;
+
+}
+
+/* Buttons */
+
+.quick-actions{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.quick-actions button{
+
+    background:#071D2F;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:14px 24px;
+
+    cursor:pointer;
+
+}
+
+.quick-actions button:hover{
+
+    background:#D79B33;
+
+    color:#071D2F;
+
+}

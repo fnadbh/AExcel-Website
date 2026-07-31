@@ -1,0 +1,273 @@
+/* ==========================================
+   MENU OVERLAY
+========================================== */
+
+.menu-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.35);
+    opacity:0;
+    visibility:hidden;
+    transition:.35s ease;
+    z-index:999;
+}
+
+.menu-overlay.show{
+    opacity:1;
+    visibility:visible;
+}
+
+/* ==========================================
+   SIDE MENU
+========================================== */
+
+.side-menu{
+    position:fixed;
+    top:0;
+    right:-380px;
+
+    width:380px;
+    max-width:100%;
+    height:100vh;
+
+    background:#071D2F;
+
+    z-index:1001;
+
+    transition:right .45s ease;
+
+    overflow-y:auto;
+
+    box-shadow:-12px 0 30px rgba(0,0,0,.25);
+
+    scrollbar-width:thin;
+    scrollbar-color:rgba(255,255,255,.25) transparent;
+}
+
+.side-menu.open{
+    right:0;
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+.side-menu::-webkit-scrollbar{
+    width:6px;
+}
+
+.side-menu::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+.side-menu::-webkit-scrollbar-thumb{
+    background:rgba(255,255,255,.25);
+    border-radius:20px;
+}
+
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+.menu-nav{
+    display:flex;
+    flex-direction:column;
+    padding:100px 36px 40px;
+}
+
+/* ==========================================
+   MAIN LINKS
+========================================== */
+
+.menu-link{
+    position:relative;
+
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:none;
+    border:none;
+
+    color:#fff;
+    text-decoration:none;
+
+    font-size:19px;
+    font-weight:400;
+
+    letter-spacing:.3px;
+
+    padding:16px 0 16px 18px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    transition:
+        color .25s ease,
+        padding-left .25s ease;
+
+    cursor:pointer;
+}
+
+/* ==========================================
+   GOLD BAR
+========================================== */
+
+.menu-link::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    top:50%;
+
+    transform:translateY(-50%) scaleY(0);
+
+    width:2px;
+    height:24px;
+
+    background:#D79B33;
+
+    border-radius:20px;
+
+    transition:.25s;
+}
+
+.menu-link:hover,
+.menu-link.active{
+
+    color:#D79B33;
+
+    padding-left:24px;
+}
+
+.menu-link:hover::before,
+.menu-link.active::before{
+
+    transform:translateY(-50%) scaleY(1);
+}
+
+/* ==========================================
+   DROPDOWN
+========================================== */
+
+.menu-dropdown{
+    width:100%;
+}
+
+.dropdown-trigger{
+    appearance:none;
+}
+
+/* ==========================================
+   SUBMENU
+========================================== */
+
+.submenu{
+
+    background:#0B2237;
+
+    margin-bottom:4px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.submenu-link{
+
+    display:block;
+
+    color:#D7D7D7;
+
+    text-decoration:none;
+
+    font-size:17px;
+
+    padding:14px 18px 14px 42px;
+
+    transition:.25s;
+}
+
+.submenu-link:hover{
+
+    color:#D79B33;
+
+    background:rgba(255,255,255,.04);
+
+    padding-left:48px;
+}
+
+/* ==========================================
+   DROPDOWN ICON
+========================================== */
+
+.dropdown-trigger svg{
+
+    transition:.25s;
+
+    flex-shrink:0;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media(max-width:992px){
+
+.side-menu{
+
+    width:340px;
+
+}
+
+.menu-nav{
+
+    padding:90px 28px 30px;
+
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.side-menu{
+
+    top:84px;
+    right:-360px;
+
+    width:360px;
+    max-width:90%;
+
+    height:calc(100vh - 84px);
+
+    border-radius:0 0 0 12px;
+
+    box-shadow:-8px 12px 30px rgba(0,0,0,.18);
+}
+
+.side-menu.open{
+
+    right:0;
+}
+
+.menu-nav{
+
+    padding:12px 28px 36px;
+}
+
+.menu-link{
+
+    font-size:18px;
+}
+
+.submenu-link{
+
+    font-size:16px;
+}
+
+}

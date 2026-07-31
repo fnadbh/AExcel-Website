@@ -1,0 +1,219 @@
+/* ==========================================
+   FEED CARD
+========================================== */
+
+.feed-card{
+
+    width:100%;
+
+    background:#FFFFFF;
+
+    border-radius:22px;
+
+    padding:15px 20px;
+
+    margin-bottom:24px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    transition:.25s;
+
+}
+
+.feed-card:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 16px 36px rgba(0,0,0,.10);
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.feed-card-header{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:18px;
+
+}
+
+.feed-card-avatar{
+
+    width:54px;
+
+    height:54px;
+
+    border-radius:50%;
+
+    background:#071D2F;
+
+    color:#FFFFFF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    flex-shrink:0;
+
+    margin-right:16px;
+
+}
+
+.feed-card-user{
+
+    flex:1;
+
+}
+
+.feed-card-user h3{
+
+    color:#071D2F;
+
+    font-size:15px;
+
+    margin-bottom:4px;
+
+}
+
+.feed-card-user span{
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+.feed-card-time{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:6px;
+
+    color:#888;
+
+    font-size:13px;
+
+}
+
+/* ==========================================
+   BODY
+========================================== */
+
+.feed-card-body h4{
+
+    color:#071D2F;
+
+    font-size:18px;
+
+    margin-bottom:14px;
+
+    line-height:1.4;
+
+}
+
+.feed-card-body p{
+
+    color:#555;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    margin-bottom:28px;
+
+}
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+.feed-card-footer{
+
+    display:flex;
+
+    gap:0px;
+
+    flex-wrap:wrap;
+
+}
+
+.feed-action{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:10px 14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:transparent;
+
+    color:#666;
+
+    transition:.25s;
+
+}
+
+.feed-action:hover{
+
+    background:#F6F6F6;
+
+    color:#D79B33;
+
+}
+
+.feed-action svg{
+
+    flex-shrink:0;
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.feed-card{
+
+    padding:22px;
+
+}
+
+.feed-card-header{
+
+    align-items:flex-start;
+
+}
+
+.feed-card-time{
+
+    display:none;
+
+}
+
+.feed-card-footer{
+
+    justify-content:space-between;
+
+}
+
+}

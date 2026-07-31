@@ -1,0 +1,168 @@
+/* ==========================================
+   LOGIN
+========================================== */
+
+.login-page{
+
+    min-height:100vh;
+
+    background:#F8F6F2;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+.login-card{
+
+    width:100%;
+
+    max-width:520px;
+
+    background:white;
+
+    border-radius:30px;
+
+    padding:60px 50px;
+
+    text-align:center;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+}
+
+.login-logo img{
+
+    width:90px;
+
+    margin-bottom:25px;
+
+}
+
+.login-label{
+
+    display:inline-block;
+
+    color:#D79B33;
+
+    font-size:14px;
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+
+}
+
+.login-card h1{
+
+    font-family:Georgia, serif;
+
+    color:#071D2F;
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.login-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+.identity-btn,
+.google-btn{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.identity-btn{
+
+    background:#071D2F;
+
+    color:white;
+
+    border:none;
+
+    margin-bottom:18px;
+
+}
+
+.identity-btn:hover{
+
+    background:#D79B33;
+
+    color:#071D2F;
+
+}
+
+.google-btn{
+
+    background:white;
+
+    border:1px solid #E4E4E4;
+
+}
+
+.google-btn img{
+
+    width:22px;
+
+}
+
+.google-btn:hover{
+
+    background:#F5F5F5;
+
+}
+
+.login-note{
+
+    margin-top:35px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#777;
+
+    font-size:.9rem;
+
+}

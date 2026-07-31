@@ -1,0 +1,83 @@
+/* ==========================================
+   SEARCH
+========================================== */
+
+.forum-search{
+
+   width:85%;
+
+    margin:0 auto 0px;
+
+}
+
+.search-wrapper{
+
+    position:relative;
+
+    width:100%;
+
+}
+
+.search-box{
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+    background:#fff;
+
+    border:1px solid #E5E5E5;
+
+    border-radius:18px;
+
+    padding:18px 22px;
+
+    transition:.25s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    position:relative;
+
+    z-index:1000;
+
+}
+
+.search-box.active{
+
+    border-radius:18px 18px 0 0;
+
+    border-bottom:none;
+
+}
+
+.search-box svg{
+
+    color:#888;
+
+    margin-right:16px;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    border:none;
+
+    outline:none;
+
+    background:none;
+
+    font-size:16px;
+
+    color:#071D2F;
+
+}
+
+.search-box input::placeholder{
+
+    color:#999;
+
+}

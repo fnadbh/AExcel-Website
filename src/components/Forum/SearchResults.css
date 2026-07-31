@@ -1,0 +1,135 @@
+/* ==========================================
+   SEARCH RESULTS
+========================================== */
+
+.search-results{
+
+    position:absolute;
+
+    top:100%;
+
+    left:0;
+
+    width:100%;
+
+    background:#fff;
+
+    border:1px solid #E5E5E5;
+
+    border-top:none;
+
+    border-radius:0 0 18px 18px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.10);
+
+    z-index:999;
+
+    overflow:hidden;
+
+    max-height:340px;
+
+    overflow-y:auto;
+
+}
+
+.search-count{
+
+    padding:12px 20px;
+
+    font-size:13px;
+
+    color:#777;
+
+    border-bottom:1px solid #F1F1F1;
+
+}
+
+.search-item{
+
+    display:flex;
+
+    gap:16px;
+
+    align-items:center;
+
+    padding:18px 20px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.search-item:hover{
+
+    background:#F8F8F8;
+
+}
+
+.search-avatar{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:#071D2F;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.search-content{
+
+    flex:1;
+
+}
+
+.search-content h4{
+
+    color:#071D2F;
+
+    font-size:16px;
+
+    margin-bottom:5px;
+
+}
+
+.search-content span{
+
+    color:#777;
+
+    font-size:13px;
+
+}
+
+.search-empty{
+
+    padding:24px;
+
+    text-align:center;
+
+    color:#888;
+
+}
+
+.search-results::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.search-results::-webkit-scrollbar-thumb{
+
+    background:#D4D4D4;
+
+    border-radius:20px;
+
+}

@@ -1,0 +1,353 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* ==========================================
+   ROOT
+========================================== */
+
+:root{
+
+    /* Brand */
+
+    --navy:#071D2F;
+    --gold:#D79B33;
+
+    /* New */
+
+    --burgundy:#7A1F2B;
+    --silver:#D8DEE6;
+
+    /* Background */
+
+    --ivory:#F8F6F2;
+    --white:#FFFFFF;
+
+    /* Text */
+
+    --text:#2B3440;
+    --text-light:#5E6875;
+
+    /* Border */
+
+    --border:#E4E7EC;
+
+    /* Shadow */
+
+    --shadow:0 10px 30px rgba(7,29,47,.08);
+
+    /* Radius */
+
+    --radius:20px;
+
+    /* Layout */
+
+    --container:1280px;
+
+}
+
+/* ==========================================
+   RESET
+========================================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+    font-size:16px;
+
+}
+
+body{
+
+    font-family:"Inter",sans-serif;
+
+    background:var(--ivory);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+    -webkit-font-smoothing:antialiased;
+
+}
+
+img{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    font-family:inherit;
+
+    cursor:pointer;
+
+    border:none;
+
+    transition:.3s;
+
+}
+
+input,
+textarea,
+select{
+
+    font-family:inherit;
+
+}
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.container{
+
+    width:min(92%,var(--container));
+
+    margin:auto;
+
+}
+
+/* ==========================================
+   TYPOGRAPHY
+========================================== */
+
+h1{
+
+    font-family:Georgia,serif;
+
+    color:var(--navy);
+
+    font-size:clamp(2.8rem,5vw,4.4rem);
+
+    line-height:1.08;
+
+}
+
+h2{
+
+    font-family:Georgia,serif;
+
+    color:var(--navy);
+
+    font-size:clamp(2rem,3vw,2.8rem);
+
+    line-height:1.15;
+
+}
+
+h3{
+
+    font-family:Georgia,serif;
+
+    color:var(--navy);
+
+    font-size:1.6rem;
+
+}
+
+p{
+
+    color:var(--text-light);
+
+    font-size:1.05rem;
+
+    line-height:1.9;
+
+}
+
+/* ==========================================
+   SECTION
+========================================== */
+
+section{
+
+    padding:90px 8%;
+
+}
+
+.section-title{
+
+    margin-bottom:18px;
+
+}
+
+.section-subtitle{
+
+    color:var(--gold);
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    margin-bottom:14px;
+
+}
+
+.gold-divider{
+
+    width:140px;
+
+    height:4px;
+
+    background:var(--gold);
+
+    border-radius:100px;
+
+    margin-top:28px;
+
+}
+
+/* ==========================================
+   BUTTONS
+========================================== */
+
+.btn-primary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:var(--navy);
+
+    color:white;
+
+    padding:14px 28px;
+
+    border-radius:999px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--gold);
+
+    color:var(--navy);
+
+}
+
+.btn-secondary{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    border:1px solid var(--navy);
+
+    color:var(--navy);
+
+    padding:14px 28px;
+
+    border-radius:999px;
+
+    font-size:1rem;
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--navy);
+
+    color:white;
+
+}
+
+/* ==========================================
+   CARDS
+========================================== */
+
+.card{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    padding:28px;
+
+    box-shadow:var(--shadow);
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+section{
+
+padding:80px 6%;
+
+}
+
+}
+
+@media(max-width:768px){
+
+html{
+
+font-size:15px;
+
+}
+
+section{
+
+padding:70px 6%;
+
+}
+
+.container{
+
+width:94%;
+
+}
+
+h1{
+
+font-size:2.7rem;
+
+}
+
+h2{
+
+font-size:2rem;
+
+}
+
+}

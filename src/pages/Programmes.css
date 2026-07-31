@@ -1,0 +1,299 @@
+/* ==========================================
+   PROGRAMMES PAGE
+========================================== */
+
+.programmes-page{
+    background:#F8F6F2;
+    min-height:100vh;
+}
+
+.programmes-page section{
+    padding:0;
+}
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.programmes-content{
+
+    width:100%;
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:110px 24px 80px;
+
+}
+
+/* ==========================================
+   HERO
+========================================== */
+
+.programmes-hero{
+
+    width:100%;
+
+    margin-bottom:55px;
+
+}
+
+.programmes-hero .section-subtitle{
+
+    display:block;
+
+    margin-bottom:18px;
+
+    font-size:15px;
+
+}
+
+.programmes-hero p{
+
+    max-width:760px;
+
+    font-size:15px;
+
+    line-height:1.9;
+
+}
+
+/* ==========================================
+   FEATURED PROGRAMME
+========================================== */
+
+.featured-programme{
+
+    width:100%;
+
+    margin-bottom:55px;
+
+}
+
+.featured-programme h2{
+
+    margin-bottom:22px;
+
+    font-size:25px;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.programme-card{
+
+    display:grid;
+
+    grid-template-columns:220px 1fr;
+
+    gap:30px;
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:24px;
+
+    box-shadow:0 10px 25px rgba(7,29,47,.08);
+
+    align-items:start;
+
+}
+
+/* ==========================================
+   POSTER
+========================================== */
+
+.programme-image{
+
+    width:220px;
+
+}
+
+.programme-image img{
+
+    width:100%;
+
+    display:block;
+
+    border-radius:14px;
+
+    object-fit:cover;
+
+}
+
+/* ==========================================
+   DETAILS
+========================================== */
+
+.programme-info h3{
+
+    margin-bottom:16px;
+    font-size:22px;
+
+}
+
+.programme-info p{
+
+    line-height:1.8;
+
+    margin-bottom:16px;
+
+    text-align:justify;
+
+    font-size:15px;
+
+}
+
+.programme-meta{
+
+    margin:20px 0;
+
+}
+
+.programme-meta p{
+
+    margin-bottom:10px;
+
+}
+
+.programme-meta strong{
+
+    color:#071D2F;
+
+}
+
+/* ==========================================
+   REGISTRATION LINK
+========================================== */
+
+.register-section{
+
+    margin-top:24px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.register-section strong{
+
+    color:#071D2F;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.register-link{
+
+    color:#D79B33;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    word-break:break-all;
+
+    transition:.3s;
+
+}
+
+.register-link:hover{
+
+    color:#071D2F;
+
+    text-decoration:underline;
+
+}
+
+/* ==========================================
+   COMING SOON
+========================================== */
+
+.coming-soon{
+
+    width:100%;
+
+    background:#fff;
+
+    border-radius:30px;
+
+    /* More breathing room */
+    padding:100px 90px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(7,29,47,.08);
+
+}
+
+.coming-icon{
+
+    font-size:30px;
+
+    margin-bottom:16px;
+
+}
+
+.coming-soon h2{
+
+    margin-bottom:16px;
+    font-size:18px;
+}
+
+.coming-soon p{
+
+    max-width:560px;
+    margin:0 auto;
+    margin-bottom:30px;
+    line-height:2;
+    font-size:15px;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width:768px){
+
+    .programmes-content{
+
+        padding:90px 20px 70px;
+
+    }
+
+    .programme-card{
+
+        grid-template-columns:1fr;
+
+        gap:24px;
+
+        padding:22px;
+
+    }
+
+    .programme-image{
+
+        width:240px;
+
+        margin:0 auto;
+
+    }
+
+    .coming-soon{
+
+        padding:36px 22px;
+
+    }
+
+}

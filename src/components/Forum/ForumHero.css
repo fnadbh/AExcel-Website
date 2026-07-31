@@ -1,0 +1,55 @@
+/* ==========================================
+   FORUM HERO
+========================================== */
+
+.forum-hero{
+
+    width:100%;
+    margin-top:-50px;;
+    margin-bottom:-50px;
+
+}
+
+.forum-label{
+
+    display:inline-block;
+
+    color:#D79B33;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+    margin-bottom:14px;
+
+}
+
+.forum-hero h1{
+
+    font-family:Georgia, serif;
+
+    font-size:30px;
+
+    color:#071D2F;
+
+    line-height:1.1;
+
+    margin-bottom:24px;
+
+}
+
+.forum-hero p{
+
+    max-width:900px;
+
+    color:#5C5C5C;
+
+    font-size:15px;
+
+    line-height:1.9;
+
+}

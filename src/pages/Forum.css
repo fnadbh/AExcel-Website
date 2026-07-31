@@ -1,0 +1,72 @@
+/* ==========================================
+   FORUM PAGE
+========================================== */
+
+.forum-page{
+
+    background:#F8F6F2;
+
+    min-height:100vh;
+
+}
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.forum-content{
+
+    max-width:1400px;
+
+    width:100%;
+
+    margin:0 auto;
+
+    padding:110px 40px 80px;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.forum-content{
+
+    padding:30px 16px 80px;
+
+}
+
+}
+/* ==========================================
+   FORUM LAYOUT
+========================================== */
+
+.forum-layout{
+
+    display:grid;
+
+    grid-template-columns:240px minmax(0, 1fr);
+
+    gap:40px;
+
+    align-items:start;
+
+}
+
+.forum-main{
+
+    width:100%;
+
+    min-width:0;
+
+}
+
+.forum-sidebar{
+
+    position:sticky;
+
+    top:100px;
+
+}

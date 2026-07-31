@@ -1,0 +1,143 @@
+.analytics-page{
+
+    background:#F8F6F2;
+
+    min-height:100vh;
+
+    padding:60px;
+
+}
+
+.analytics-container{
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+.page-label{
+
+    color:#D79B33;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+}
+
+.analytics-container h1{
+
+    font-family:Georgia,serif;
+
+    color:#071D2F;
+
+    font-size:3rem;
+
+    margin:18px 0;
+
+}
+
+.analytics-container p{
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
+
+/* Cards */
+
+.analytics-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-bottom:45px;
+
+}
+
+.analytics-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.analytics-card h2{
+
+    color:#071D2F;
+
+    font-size:2.5rem;
+
+    margin-bottom:10px;
+
+}
+
+.analytics-card span{
+
+    color:#777;
+
+}
+
+/* Tables */
+
+.analytics-section{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    margin-bottom:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.analytics-section h2{
+
+    color:#071D2F;
+
+    margin-bottom:20px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#071D2F;
+
+    color:white;
+
+    text-align:left;
+
+    padding:16px;
+
+}
+
+td{
+
+    padding:16px;
+
+    border-bottom:1px solid #EEE;
+
+}

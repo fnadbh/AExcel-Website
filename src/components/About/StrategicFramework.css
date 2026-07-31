@@ -1,0 +1,170 @@
+/* ==========================================
+   FRAMEWORK
+========================================== */
+
+.framework{
+
+    background:#E1ECF4;
+
+    padding:100px 8%;
+
+}
+
+.framework-container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+.framework-label{
+
+    display:inline-block;
+
+    color:#6D712E;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    margin-bottom:18px;
+
+}
+
+.framework h2{
+
+    color:#071D2F;
+
+    font-family:Georgia, serif;
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+.framework-intro{
+
+    max-width:720px;
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+    margin-bottom:60px;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.framework-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.framework-card{
+
+    background:#F8F6F2;
+
+    border:1px solid #c0bebe;
+
+    border-radius:18px;
+
+    padding:30px;
+
+}
+
+
+.framework-icon{
+
+    color:#6D712E;
+
+    margin-bottom:24px;
+
+}
+
+.framework-card h3{
+
+    color:#071D2F;
+
+    font-family:Georgia, serif;
+
+    font-size:17px;
+
+    margin-bottom:18px;
+
+}
+
+.framework-card p{
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+    text-align:justify;
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media(max-width:992px){
+
+.framework-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.framework{
+
+padding:80px 6%;
+
+}
+
+.framework h2{
+
+font-size:2.5rem;
+
+}
+
+.framework-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.framework-card{
+
+padding:28px;
+
+}
+
+}

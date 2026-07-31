@@ -1,0 +1,271 @@
+/* ==========================================
+   FOOTER
+========================================== */
+
+.footer{
+    background:#05152C;
+    color:#fff;
+    margin-top:0;
+}
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.footer-container{
+
+    max-width:1200px;
+    margin:0 auto;
+
+    display:grid;
+    grid-template-columns:260px 1fr 300px;
+
+    gap:90px;
+
+    align-items:flex-start;
+
+    padding:50px 20px 20px;
+
+}
+
+/* ==========================================
+   LEFT
+========================================== */
+
+.footer-left{
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.footer-logo{
+
+    width:140px;
+    height:auto;
+
+    margin-bottom:28px;
+
+}
+
+.footer-social{
+
+    display:flex;
+    gap:16px;
+
+}
+
+.footer-social a{
+
+    width:46px;
+    height:46px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:50%;
+
+    color:#fff;
+
+    transition:.3s;
+
+}
+
+.footer-social a:hover{
+
+    background:#D79B33;
+    border-color:#D79B33;
+
+    transform:translateY(-3px);
+
+}
+
+/* ==========================================
+   CENTER
+========================================== */
+
+.footer-center h3{
+
+    font-family:Georgia,serif;
+
+    font-size:25px;
+
+    margin-bottom:28px;
+
+    color:#fff;
+
+}
+
+.contact-item{
+
+    display:flex;
+    align-items:flex-start;
+
+    gap:18px;
+
+}
+
+.contact-item svg{
+
+    color:#D79B33;
+
+    margin-top:4px;
+
+    flex-shrink:0;
+
+}
+
+.footer-center p{
+
+    margin:0;
+
+    color:#D7DDE5;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+   RIGHT
+========================================== */
+
+.footer-right{
+
+    display:flex;
+    flex-direction:column;
+
+    gap:35px;
+
+    padding-top:58px;
+
+}
+
+.footer-right a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.footer-right a:hover{
+
+    color:#D79B33;
+
+}
+
+/* ==========================================
+   BOTTOM
+========================================== */
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    padding:22px;
+
+    color:#B8C0CA;
+
+    font-size:15px;
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width:992px){
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    gap:45px;
+
+}
+
+.footer-right{
+
+    padding-top:0;
+
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+.footer{
+
+    text-align:left;
+
+}
+
+.footer-container{
+
+    padding:50px 25px;
+
+    gap:40px;
+
+}
+
+.footer-logo{
+
+    width:120px;
+
+}
+
+.footer-center h3{
+
+    font-size:24px;
+
+}
+
+.footer-center p,
+.footer-right a{
+
+    font-size:16px;
+
+}
+
+.footer-social{
+
+    gap:12px;
+
+}
+
+.footer-social a{
+
+    width:42px;
+    height:42px;
+
+}
+
+.contact-item{
+
+    gap:14px;
+
+}
+
+.footer-bottom{
+
+    font-size:14px;
+
+}
+
+}

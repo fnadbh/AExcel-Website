@@ -1,0 +1,155 @@
+.notifications-page{
+
+    background:#F8F6F2;
+
+    padding:140px 8% 100px;
+
+}
+
+.notifications-container{
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+.notifications-label{
+
+    color:#D79B33;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+}
+
+.notifications-container h1{
+
+    font-family:Georgia, serif;
+
+    color:#071D2F;
+
+    font-size:3rem;
+
+    margin:18px 0;
+
+}
+
+.notifications-intro{
+
+    color:#666;
+
+    max-width:700px;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+}
+
+/* SETTINGS */
+
+.notification-settings{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-bottom:40px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.notification-settings h2{
+
+    color:#071D2F;
+
+    margin-bottom:25px;
+
+}
+
+.setting-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 0;
+
+    border-bottom:1px solid #EEE;
+
+}
+
+.setting-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.setting-item input{
+
+    width:20px;
+
+    height:20px;
+
+}
+
+/* LIST */
+
+.notification-list h2{
+
+    color:#071D2F;
+
+    margin-bottom:25px;
+
+}
+
+.notification-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.notification-card h3{
+
+    color:#071D2F;
+
+    margin-bottom:10px;
+
+    font-size:1.1rem;
+
+}
+
+.notification-card p{
+
+    color:#555;
+
+    margin-bottom:12px;
+
+    line-height:1.7;
+
+}
+
+.notification-card span{
+
+    color:#999;
+
+    font-size:.9rem;
+
+}

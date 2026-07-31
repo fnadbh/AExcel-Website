@@ -1,0 +1,20 @@
+:root{
+
+--primary:#1B2A4A;
+--secondary:#2E5090;
+
+--gold:#C8963E;
+--gold-light:#E8A838;
+
+--background:#FFFFFF;
+--section:#F2F6FA;
+
+--text:#333333;
+
+--radius:16px;
+
+--shadow:0 12px 30px rgba(0,0,0,.08);
+
+--container:1280px;
+
+}

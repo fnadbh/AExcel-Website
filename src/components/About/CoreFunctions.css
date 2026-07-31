@@ -1,0 +1,181 @@
+/* ==========================================
+   CORE FUNCTIONS
+========================================== */
+
+.core-functions{
+
+    background:#F8F6F2;
+
+    padding:100px 8%;
+
+}
+
+.core-container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.core-label{
+
+    display:inline-block;
+
+    color:#D79B33;
+
+    font-size:18px;
+
+    font-weight:800;
+
+    letter-spacing:4px;
+
+    margin-bottom:18px;
+
+}
+
+.core-container h2{
+
+    color:#071D2F;
+
+    font-family:Georgia, serif;
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+.core-intro{
+
+    max-width:720px;
+
+    color:#666;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+    margin-bottom:60px;
+
+    text-align:justify;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.core-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.core-card{
+
+    background:white;
+
+    border-radius:22px;
+
+    border:1px solid #c0bebe;
+
+    padding:35px;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.05);
+
+    transition:.35s;
+
+    border-top:4px solid transparent;
+
+}
+
+.core-icon{
+
+    color:#D79B33;
+
+    margin-bottom:22px;
+
+}
+
+.core-card h3{
+
+    color:#071D2F;
+
+    font-family:Georgia, serif;
+
+    font-size:17px;
+
+    margin-bottom:18px;
+
+}
+
+.core-card p{
+
+    color:#555;
+
+    line-height:1.9;
+
+    font-size:15px;
+
+    text-align:justify;
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media(max-width:992px){
+
+.core-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+.core-functions{
+
+padding:80px 6%;
+
+}
+
+.core-container h2{
+
+font-size:2.5rem;
+
+}
+
+.core-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.core-card{
+
+padding:28px;
+
+}
+
+}
