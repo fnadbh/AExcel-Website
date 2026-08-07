@@ -38,12 +38,12 @@ function AboutIntro() {
                 <strong>ÆXcel (Centre for Academic Excellence)</strong>
                 {" "}serves as the University's strategic academic centre
                 dedicated to enhancing excellence in teaching, learning,
-                assessment, curriculum innovation and academic capability
+                assessment and academic capability
                 development.
               </p>
 
               <p>
-                Working closely with faculties and academic staff,
+                Working closely with faculties and centres,
                 ÆXcel promotes evidence-informed teaching,
                 innovative pedagogical practices,
                 professional development and responsible integration
@@ -94,9 +94,8 @@ function AboutIntro() {
             <span>VISION</span>
 
             <p>
-              To be the catalyst for academic excellence, innovation and
-              transformative learning that empowers educators and inspires
-              lifelong learners.
+              To be the driving force behind a culture of academix excellence
+              in teaching and learning at i-CATS University College.
             </p>
 
           </div>
@@ -106,10 +105,9 @@ function AboutIntro() {
             <span>MISSION</span>
 
             <p>
-              To strengthen teaching, learning, assessment,
-              curriculum innovation, AI literacy and professional
-              capability through evidence-informed practices,
-              collaboration and continuous improvement.
+              To continuously elevate the level of academic excellence
+              in teaching and learning through capability development, evidence-based
+              assessment, adn AI Literacy.
             </p>
 
           </div>
